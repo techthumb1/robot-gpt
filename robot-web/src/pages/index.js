@@ -1,5 +1,7 @@
 import { useState } from "react";
 import ReactMarkdown from 'react-markdown';
+import Head from 'next/head';
+
 
 export default function Home() {
   const [apiKey, setApiKey] = useState("");
